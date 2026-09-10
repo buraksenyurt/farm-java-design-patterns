@@ -1,0 +1,13 @@
+package com.buraksenyurt.designpatterns.behavioral.commandingame;
+
+// Receiver: Oyuncunun hareket ve atak işlemlerini gerçekleştiren sınıf
+public class Player {
+    public void move(Vector direction) {
+        System.out.println("Oyuncu hareket ediyor: " + direction);
+
+    }
+
+    public void attack() {
+        System.out.println("Oyuncu atak ediyor!");
+    }
+}

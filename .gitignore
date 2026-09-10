@@ -1,6 +1,34 @@
 # Compiled class file
 *.class
 
+# Maven
+target/
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Apache NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+
+# Eclipse
+.settings/
+.classpath
+.project
+bin/
+
+# VS Code
+.vscode/
+
 # Log file
 *.log
 

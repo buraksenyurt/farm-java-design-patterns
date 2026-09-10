@@ -1,0 +1,9 @@
+package com.buraksenyurt.designpatterns.behavioral.strategy;
+
+public class ExpressShippingStrategy implements ShippingStrategy {
+    @Override
+    public double calculateShipping(Order order) {
+        return 25 + order.getWeightKg() * 1.2;
+    }
+    
+}
